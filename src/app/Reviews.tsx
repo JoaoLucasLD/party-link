@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Reviews() {
   return (
     <section className="flex flex-col justify-center items-center">
-      <h2 className="my-10 text-black text-5xl font-semibold">
+      <h2 className="mt-10 mb-16 text-black text-5xl font-semibold">
         O que nossos clientes dizem
       </h2>
       <div className="flex w-full justify-center items-center">
@@ -18,7 +18,7 @@ export default function Reviews() {
               />
               <p className="font-medium text-2xl">João Pereira</p>
             </div>
-            <div className="flex justify-center items-center w-full mt-7">
+            <div className="flex justify-center items-center w-full my-3">
               <div className="w-[70%]">
                 <p className="text-xl text-center">
                   Este aplicativo revolucionou a maneira como planejo festas. Eu
@@ -39,7 +39,7 @@ export default function Reviews() {
               />
               <p className="font-medium text-2xl">Laura Santos</p>
             </div>
-            <div className="flex justify-center items-center w-full mt-7">
+            <div className="flex justify-center items-center w-full my-3">
               <div className="w-[70%]">
                 <p className="text-xl text-center">
                   Eu amo como este aplicativo me dá controle total sobre o meu
@@ -60,7 +60,7 @@ export default function Reviews() {
               />
               <p className="font-medium text-2xl">Pedro Oliveira</p>
             </div>
-            <div className="flex justify-center items-center w-full mt-7">
+            <div className="flex justify-center items-center w-full my-3">
               <div className="w-[70%]">
                 <p className="text-xl text-center">
                   Nunca fui muito bom em organizar festas, mas este aplicativo
