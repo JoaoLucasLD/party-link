@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Home() {
@@ -17,9 +18,16 @@ export default function Home() {
           <p className="pt-8 text-white text-xl">
             Organize suas festas de forma prática e rápida.
           </p>
-          <button className="bg-[#FA4A0C] text-white px-10 py-3 rounded-md mt-10 hover:bg-[#cc3600] transition">
-            Baixar
-          </button>
+          <div className="flex w-full justify-center items-center gap-7">
+            <button className="bg-[#FA4A0C] text-white px-10 py-3 rounded-md mt-10 hover:bg-[#cc3600] transition">
+              Baixar
+            </button>
+            <Link href="/calculadora">
+              <button className="bg-[#FA4A0C] text-white px-10 py-3 rounded-md mt-10 hover:bg-[#cc3600] transition">
+                Acesse nossa calculadora de festas!
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
